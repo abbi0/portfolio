@@ -1,0 +1,7 @@
+my-portfolio/
+
+  index.html # The main HTML file
+  style.css  # The CSS file for styling
+  script.js  # The javascript file
+  images/    # Folder for your images
+  asssets/   # Any other assets like fonts, icons, etc
