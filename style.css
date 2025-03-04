@@ -1,172 +1,88 @@
-/*General Styles*/
-body{
-  font-family:Arial,sans-serif;
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
 }
 
-header{
-  background-color: #333;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
-}
-
+/* 🔥 FIXED NAVIGATION BAR */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #222;
-    padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  padding: 15px 20px;
 }
 
 /* Center Navigation Links */
 .nav-links {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    flex-grow: 1; /* This keeps links centered */
-    gap: 20px;
-    padding: 0;
-}
-
-.nav-links li {
-    display: inline;
-}
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-/* Align Social Icons to the Right */
-.nav-socials {
-    display: flex;
-    gap: 15px;
-}
-
-.nav-socials a {
-    color: white;
-    font-size: 24px;
-    transition: color 0.3s ease, transform 0.3s;
-}
-
-.nav-socials a:hover {
-    transform: scale(1.1);
-}
-
-
-
-nav ul{
-  list-style-type: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 25px;
   padding: 0;
 }
 
-nav ul li{
+.nav-links li {
   display: inline;
-  margin: 0 15px;
 }
 
-nav ul li a{
+.nav-links a {
   color: white;
   text-decoration: none;
+  font-size: 18px;
 }
 
-section{
-  padding: 60px 20px;
+/* Social Icons in Nav */
+.nav-socials {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-socials a {
+  color: white;
+  font-size: 24px;
+  transition: color 0.3s ease, transform 0.3s;
+}
+
+.nav-socials a:hover {
+  transform: scale(1.1);
+}
+
+/* 🔥 FIXED FOOTER */
+footer {
+  background: #222;
+  color: white;
   text-align: center;
+  padding: 30px 0;
 }
 
-#about{
-  background-color: #fff;
-}
-
-#projects{
-  background-color: #f9f9f9;
-}
-
-#contact{
-  background-color: #fff;
-}
-
-/*Project Cards*/
-.project-list{
+/* Fully Center Social Media Icons */
+.social-media {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 15px;
 }
-
-.project-card{
-  background-color: #fff;
-  border-radius: 10px;
-  margin: 20px;
-  padding: 20px;
-  width: 250px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-
-  .project-card img{
-    width: 200px;
-    border-radius: auto;
-  }
-
- .project-image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: auto;
-    border-radius: 10px; /* Optional: adds rounded corners */
-  }
-
-
-
-  button{
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-
-  button:hover{
-    background-color: #555;
-  }
-
-
- footer {
-    background: #222;
-    color: white;
-    text-align: center;
-    padding: 30px 0;
-  }
-
-/* Fully Center Social Icons */
-.social-media {
-    display: flex;
-    justify-content: center;
-    gap: 30px; /* Even spacing between icons */
-    margin-top: 10px;
-  }
 
 /* Bigger Icons */
 .social-media a {
-    font-size: 50px; /* Increased size */
-    color: white;
-    transition: color 0.3s, transform 0.3s;
-  }
+  font-size: 50px;
+  color: white;
+  transition: color 0.3s, transform 0.3s;
+}
 
 /* Hover Effects */
 .social-media a:hover {
-    transform: scale(1.2);
-  }
+  transform: scale(1.2);
+}
 
 /* Individual Platform Colors */
-.social-media a:nth-child(1):hover { color: #fffc00; } /* Snapchat Yellow */
-.social-media a:nth-child(2):hover { color: #E4405F; } /* Instagram Pink */
-.social-media a:nth-child(3):hover { color: #1DA1F2; } /* Twitter Blue */
-.social-media a:nth-child(4):hover { color: #000000; } /* TikTok Black */
-.social-media a:nth-child(5):hover { color: #333; } /* GitHub Gray */
-.social-media a:nth-child(6):hover { color: #7289da; } /* Discord Blue */
+.social-media a:nth-child(1):hover { color: #fffc00; } /* Snapchat */
+.social-media a:nth-child(2):hover { color: #E4405F; } /* Instagram */
+.social-media a:nth-child(3):hover { color: #000000; } /* X (Twitter) */
+.social-media a:nth-child(4):hover { color: #000000; } /* TikTok */
+.social-media a:nth-child(5):hover { color: #333; } /* GitHub */
+.social-media a:nth-child(6):hover { color: #7289da; } /* Discord */
