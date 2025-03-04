@@ -6,15 +6,6 @@ body {
   background-color: #f4f4f4;
 }
 
-.project-image {
-    width: 100%; /* Makes the image scale with its container */
-    max-width: 600px; /* Ensures it doesn’t get too large on big screens */
-    height: auto; /* Maintains aspect ratio */
-    display: block;
-    margin: auto; /* Centers the image */
-    border-radius: 10px; /* Optional: Adds rounded corners */
-    }
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -43,6 +34,69 @@ nav {
     text-decoration: none;
     font-size: 18px;
 }
+
+
+section{
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#about{
+  background-color: #fff;
+}
+
+#projects{
+  background-color: #f9f9f9;
+}
+
+#contact{
+  background-color: #fff;
+}
+
+/*Project Cards*/
+.project-list{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-card{
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+  .project-card img{
+    width: 200px;
+    border-radius: auto;
+  }
+
+ .project-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 10px; /* Optional: adds rounded corners */
+  }
+
+  button{
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  button:hover{
+    background-color: #555;
+  }
+
+
 
 /* Fix Social Icons Alignment */
 .nav-socials {
