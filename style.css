@@ -16,7 +16,7 @@ header{
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center !important;
     background: #222; /* Dark background */
     padding: 15px 20px;
 }
