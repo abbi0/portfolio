@@ -6,6 +6,15 @@ body {
   background-color: #f4f4f4;
 }
 
+.project-image {
+    width: 100%; /* Makes the image scale with its container */
+    max-width: 600px; /* Ensures it doesn’t get too large on big screens */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: auto; /* Centers the image */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    }
+
 nav {
     display: flex;
     justify-content: space-between;
