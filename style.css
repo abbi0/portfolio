@@ -6,83 +6,58 @@ body {
   background-color: #f4f4f4;
 }
 
-/* 🔥 FIXED NAVIGATION BAR */
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #222;
-  padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    padding: 15px 20px;
 }
 
-/* Center Navigation Links */
+/* Center the Navigation Links */
 .nav-links {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  flex-grow: 1;
-  gap: 25px;
-  padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-links li {
-  display: inline;
+    display: inline;
 }
 
 .nav-links a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
 }
 
-/* Social Icons in Nav */
+/* Fix Social Icons Alignment */
 .nav-socials {
-  display: flex;
-  gap: 15px;
+    display: flex;
+    align-items: center; /* Ensures icons align properly */
+    gap: 20px; /* Adds spacing between icons */
 }
 
 .nav-socials a {
-  color: white;
-  font-size: 24px;
-  transition: color 0.3s ease, transform 0.3s;
+    color: white;
+    font-size: 28px; /* Slightly bigger */
+    transition: color 0.3s ease, transform 0.3s;
 }
 
+/* Fix Icon Hover Color */
 .nav-socials a:hover {
-  transform: scale(1.1);
+    transform: scale(1.2);
 }
 
-/* 🔥 FIXED FOOTER */
-footer {
-  background: #222;
-  color: white;
-  text-align: center;
-  padding: 30px 0;
-}
+/* Fix Specific Icons */
+.nav-socials a:nth-child(1):hover { color: #fffc00; } /* Snapchat */
+.nav-socials a:nth-child(2):hover { color: #E4405F; } /* Instagram */
+.nav-socials a:nth-child(3):hover { color: #000000; } /* X (Twitter) */
+.nav-socials a:nth-child(4):hover { color: #000000; } /* TikTok */
+.nav-socials a:nth-child(5):hover { color: #333; } /* GitHub */
+.nav-socials a:nth-child(6):hover { color: #7289da; } /* Discord */
 
-/* Fully Center Social Media Icons */
-.social-media {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 15px;
-}
-
-/* Bigger Icons */
-.social-media a {
-  font-size: 50px;
-  color: white;
-  transition: color 0.3s, transform 0.3s;
-}
-
-/* Hover Effects */
-.social-media a:hover {
-  transform: scale(1.2);
-}
-
-/* Individual Platform Colors */
-.social-media a:nth-child(1):hover { color: #fffc00; } /* Snapchat */
-.social-media a:nth-child(2):hover { color: #E4405F; } /* Instagram */
-.social-media a:nth-child(3):hover { color: #000000; } /* X (Twitter) */
-.social-media a:nth-child(4):hover { color: #000000; } /* TikTok */
-.social-media a:nth-child(5):hover { color: #333; } /* GitHub */
-.social-media a:nth-child(6):hover { color: #7289da; } /* Discord */
