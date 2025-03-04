@@ -109,7 +109,7 @@ section{
 .nav-socials {
     display: flex;
     align-items: center; /* Ensures icons align properly */
-    gap: 25px; /* Adds spacing between icons */
+    gap: 30px; /* Adds spacing between icons */
 }
 
 .nav-socials a {
