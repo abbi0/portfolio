@@ -66,11 +66,14 @@ section{
     border-radius: auto;
   }
 
-  .project-image {
-    width: 250px;
+ .project-image {
+    max-width: 100%;
     height: auto;
-    border-radius: 10px; /* Optional: makes the corners rounded */
+    display: block;
+    margin: auto;
+    border-radius: 10px; /* Optional: adds rounded corners */
   }
+
 
 
   button{
