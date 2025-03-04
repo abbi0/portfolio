@@ -66,6 +66,13 @@ section{
     border-radius: auto;
   }
 
+  .project-image {
+    width: 250px;
+    height: auto;
+    border-radius: 10px; /* Optional: makes the corners rounded */
+  }
+
+
   button{
     background-color: #333;
     color: white;
