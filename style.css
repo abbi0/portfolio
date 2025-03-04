@@ -154,14 +154,13 @@ section{
 .social-media {
     display: flex;
     justify-content: center;
-    gap: 25px; /* Space between icons */
-    margin-top: 15px;
+    gap: 30px; /* Space between icons */
+    margin-top: 10px;
 }
 
 .social-media a {
-    font-size: 40px;
+    font-size: 45px;
     color: white;
-    margin: 0 10px;
     transition: color 0.3s, transform 0.3s;
 }
 
