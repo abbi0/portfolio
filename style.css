@@ -136,38 +136,37 @@ section{
   }
 
 
-  /*Footer for social media*/
-
-  footer {
+ footer {
     background: #222;
     color: white;
     text-align: center;
     padding: 30px 0;
-}
+  }
 
+/* Fully Center Social Icons */
 .social-media {
     display: flex;
     justify-content: center;
-    gap: 30px; /* Space between icons */
+    gap: 30px; /* Even spacing between icons */
     margin-top: 10px;
-}
+  }
 
+/* Bigger Icons */
 .social-media a {
-    font-size: 45px;
+    font-size: 50px; /* Increased size */
     color: white;
     transition: color 0.3s, transform 0.3s;
-}
+  }
 
-/* Hover Colors */
+/* Hover Effects */
 .social-media a:hover {
     transform: scale(1.2);
-}
+  }
 
+/* Individual Platform Colors */
 .social-media a:nth-child(1):hover { color: #fffc00; } /* Snapchat Yellow */
 .social-media a:nth-child(2):hover { color: #E4405F; } /* Instagram Pink */
 .social-media a:nth-child(3):hover { color: #1DA1F2; } /* Twitter Blue */
 .social-media a:nth-child(4):hover { color: #000000; } /* TikTok Black */
 .social-media a:nth-child(5):hover { color: #333; } /* GitHub Gray */
 .social-media a:nth-child(6):hover { color: #7289da; } /* Discord Blue */
-
-  
