@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,
-initial-scale=1.0">
-  <title>Abbigail - Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abbigail - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!--NAVIGATION BAR -->
   <header>
     <nav>
-      <ul>
-        <li><a href="#about">About Me</a><li>
-        <li><a href="#projects">Projects</a><li>
-        <li><a href="#contact">Contact Me</a><li>
+      <ul class="nav-links">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
       </ul>
+
+      <!-- SOCIAL ICONS IN NAV -->
+      <div class="nav-socials">
+        <a href="https://snapchat.com/add/arath7004" target="_blank"><i class="fab fa-snapchat"></i></a>
+        <a href="https://instagram.com/zarii7004" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://x.com/zarii4029075918" target="_blank"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://tiktok.com/@zar1ba" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="https://github.com/abbi0" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://discord.gg/A2aBQPaJye" target="_blank"><i class="fab fa-discord"></i></a>
+      </div>
     </nav>
   </header>
-    
 
   <section id="about">
     <h1>About Me!</h1>
@@ -28,47 +38,39 @@ initial-scale=1.0">
   </section>
 
   <section id="projects">
-      <h1>My Projects</h1>
-      <div class="project-list">
-          <!-- Project 1 -->
-          <div class="project-card">
-             <img class="project-image" src="images/first_project.png" alt="My First Project!">
-              <h3>Project 1</h3>
-              <p>My first project is this portfolio! I am attempting to use 
-                  a variety of programs and files to make a nice looking portfolio for myself!</p>
-          </div>
-          <!--More Projects will be coming soon!-->
-          </div>
+    <h1>My Projects</h1>
+    <div class="project-list">
+      <div class="project-card">
+        <img class="project-image" src="images/first_project.png" alt="My First Project!">
+        <h3>Project 1</h3>
+        <p>My first project is this portfolio! I am attempting to use a variety of programs and files to make a nice looking portfolio for myself!</p>
+      </div>
+    </div>
   </section>
 
   <section id="contact">
-      <h1>Contact Info!</h1>
-      <form id="contact-form">
-          <input type="text" id="name" placeholder="Your Name"
-              required>
-          <input type="email" id="email" placeholder="Your Email"
-              required>
-          <textarea id="message" placeholder="Your Message"
-              required></textarea>
-              <button type="submit">Send</button>
-      </form>
+    <h1>Contact Info!</h1>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
   </section>
 
-    <script src="script.js"></script>
-
-
-    <footer>
+  <!--FOOTER -->
+  <footer>
     <p>Follow me on my socials!</p>
     <div class="social-media">
-        <a href="https://snapchat.com/add/arath7004" target="_blank"><i class="fab fa-snapchat"></i></a>
-        <a href="https://instagram.com/zarii7004" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://x.com/zarii4029075918" target="_blank"><i class="fab fa-x"></i></a>
-        <a href="https://tiktok.com/@zar1ba" target="_blank"><i class="fab fa-tiktok"></i></a>
-        <a href="https://github.com/abbi0" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://discord.gg/A2aBQPaJye" target="_blank"><i class="fab fa-discord"></i></a>
+      <a href="https://snapchat.com/add/arath7004" target="_blank"><i class="fab fa-snapchat"></i></a>
+      <a href="https://instagram.com/zarii7004" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://x.com/zarii4029075918" target="_blank"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://tiktok.com/@zar1ba" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://github.com/abbi0" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://discord.gg/A2aBQPaJye" target="_blank"><i class="fab fa-discord"></i></a>
     </div>
     <p>Made With ❤️ By Abbigail Rath</p>
-</footer>
+  </footer>
 
 </body>
 </html>
