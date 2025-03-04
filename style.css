@@ -61,3 +61,33 @@ nav {
 .nav-socials a:nth-child(5):hover { color: #333; } /* GitHub */
 .nav-socials a:nth-child(6):hover { color: #7289da; } /* Discord */
 
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Fully Center Social Media Icons */
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Increased spacing */
+    margin-top: 15px;
+}
+
+/* Bigger Icons */
+.social-media a {
+    font-size: 50px;
+    color: white;
+    transition: color 0.3s, transform 0.3s;
+}
+
+/* Hover Effects */
+.social-media a:hover {
+    transform: scale(1.2);
+}
+
+
