@@ -13,6 +13,47 @@ header{
   text-align: center;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222; /* Dark background */
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.nav-links li {
+    display: inline;
+}
+
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.nav-socials a {
+    color: white;
+    font-size: 22px;
+    margin-left: 15px;
+    transition: color 0.3s ease, transform 0.3s;
+}
+
+
+.nav-socials a:hover {
+    color: #ffcc00; /* Snapchat Yellow */
+    transform: scale(1.1);
+}
+
+
 nav ul{
   list-style-type: none;
   padding: 0;
