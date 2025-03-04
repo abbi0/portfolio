@@ -15,27 +15,25 @@ header{
 
 nav {
     display: flex;
-    text-align: center;
-    background: #222; /* Dark background */
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
     padding: 15px 20px;
 }
 
+/* Center Navigation Links */
 .nav-links {
     list-style: none;
     display: flex;
-    text-align: center;
-    flex-grow: 1; /* Keeps the navigation centered */
+    justify-content: center;
+    flex-grow: 1; /* This keeps links centered */
     gap: 20px;
-    margin: 0;
     padding: 0;
-   
 }
-
 
 .nav-links li {
     display: inline;
 }
-
 
 .nav-links a {
     color: white;
@@ -43,25 +41,22 @@ nav {
     font-size: 18px;
 }
 
-
+/* Align Social Icons to the Right */
 .nav-socials {
     display: flex;
     gap: 15px;
 }
 
-
 .nav-socials a {
     color: white;
-    font-size: 22px;
-    margin-left: 15px;
+    font-size: 24px;
     transition: color 0.3s ease, transform 0.3s;
 }
 
-
 .nav-socials a:hover {
-    color: #ffcc00; /* Snapchat Yellow */
     transform: scale(1.1);
 }
+
 
 
 nav ul{
