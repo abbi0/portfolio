@@ -16,7 +16,7 @@ header{
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items: center;
     background: #222;
     padding: 15px 20px;
 }
@@ -25,7 +25,7 @@ nav {
 .nav-links {
     list-style: none;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     flex-grow: 1;
     gap: 30px;
     padding: 0;
@@ -109,7 +109,7 @@ section{
 .nav-socials {
     display: flex;
     align-items: center; /* Ensures icons align properly */
-    gap: 20px; /* Adds spacing between icons */
+    gap: 25px; /* Adds spacing between icons */
 }
 
 .nav-socials a {
